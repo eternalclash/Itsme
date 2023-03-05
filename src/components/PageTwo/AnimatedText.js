@@ -1,7 +1,7 @@
 import React, { useState,useLayoutEffect,useEffect } from "react";
 import "../../styles.css";
 
-const AnimatedText = ({ text,time,fontSize="1.2rem",textAlign="",color="black" }) => {
+const AnimatedText = ({ text,time,fontSize="1.2rem",textAlign="",color="black",margin="" }) => {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleAnimationEnd = () => {
@@ -18,7 +18,7 @@ const AnimatedText = ({ text,time,fontSize="1.2rem",textAlign="",color="black" }
     return () => window.removeEventListener("wheel", handleWheel);
   }, []);
   return (
-    <div style={{textAlign:`${textAlign}`}}className="animated-text">
+    <div style={{textAlign:`${textAlign}`,margin:`${margin}`}}className="animated-text">
       <span
         style={{fontSize:`${fontSize}`,color:`${color}`}}
         className={`text ${isVisible ? "visible" : ""}`}

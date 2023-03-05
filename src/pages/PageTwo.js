@@ -13,7 +13,6 @@ const PageTwo = () => {
              <TextWrapper>
              <AnimatedText time= {500} text="Frontend를 깊이 있게 다져나가고자 하는 주니어 개발자입니다." speed={60} fontSize="1.2rem" color="green" />
              <AnimatedText time = {500} text="Backend에도 관심을 가지는 등, 분야를 가리지 않고 적극적으로 개발에 대한 관심사를 넓혀나가고 있습니다. " speed={60} fontSize="1.2rem" color="green" />                
-             <AnimatedText time = {500} text="적극적으로 개발에 대한 관심을 높이고 있습니다." speed={60} fontSize="1.2rem" color="green" />
              <br/>
              <AnimatedText time = {500} text="[중요한 건 꺾이지 않는 마음]" speed={60} fontSize="1.2rem" color="black" />
              <AnimatedText time = {500} text="이 말처럼 포기하지 않고 차분하게 나아가는 것이 중요하다고 생각합니다" speed={60} fontSize="1.2rem" color="green" />
@@ -39,26 +38,28 @@ const FlexWrapper = styled.div`
   height:100%;
   flex-direction:column;
   align-content: center;
-  margin-top:5%;
+  margin-top:10vh;
   
 `
 const ImageWrapper = styled.div`
   padding:10px;
-  margin-top:30px;
+  margin-top:3vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom:5vh
 `
 const ContentsWrapper = styled.div`
   display:flex;
   justify-content: center;
-  padding-top:2rem;
   width:100%;
+  margin-top:5vh;
 `
 const ContentsButton = styled.a`
   width:15rem;
-  height:50px;
+  height:7vh;
   background-color: gray;
+  font-size: 1.2rem;
   color:white;
   margin: 0 5rem;
   display:flex;
@@ -72,9 +73,9 @@ const ContentsButton = styled.a`
   }
 `
 const TextWrapper = styled.div`
- width:60%;
+
  display:flex;
- margin-left:50px;
+ margin-left:5rem;
  flex-direction: column;
 `
 export default PageTwo;

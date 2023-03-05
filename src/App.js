@@ -7,7 +7,8 @@ import video3 from "./bg-video3.mp4"
 import "./styles.css";
 import PageTwo from "./pages/PageTwo"
 import PageThree from "./pages/PageThree";
-
+import PageFour from "./pages/PageFour";
+import PageFive from "./pages/PageFive"
 const DIVIDER_HEIGHT = 5;
 
 function App() {
@@ -142,9 +143,9 @@ function App() {
         <PageThree/>
         </div>
       <div className="divider"></div>
-      <div className="inner bg-black">4</div>
+      <div className="inner bg-black"><PageFour/></div>
       <div className="divider"></div>
-      <div className="inner ">5</div>
+      <div className="inner bg-black"><PageFive/></div>
       <div className="divider"></div>
     </div>
   );
