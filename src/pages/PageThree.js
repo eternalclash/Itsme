@@ -8,7 +8,7 @@ const PageThree = () => {
             <AnimatedText text="Strength" fontSize="5rem" textAlign="center" color='white'/>
             <Margin/>
             <FlexWrapper>
-            <ShrinkBox title="HTML/CSS" content={["웹표준을 지키려 노력합니다.","styled-compontent과 같은 Css in Js문법에 익숙합니다.","크로스 브라우징에 대응할 수 있습니다.","keyframe을 활용한 애니메이션 기법을 활용할 수 있습니다."]}/>
+            <ShrinkBox title="HTML/CSS" content={["웹표준을 지키려 노력합니다.","styled-component와 같은 Css in Js문법에 익숙합니다.","크로스 브라우징에 대응할 수 있습니다.","keyframe을 활용한 애니메이션 기법을 활용할 수 있습니다."]}/>
             <ShrinkBox title="JAVASCRIPT" content={["ES6+문법에 익숙합니다.","webpack,barbel등의 번들러 사용 경험이 있습니다.","typescript를 사용할 수 있습니다.","디자인 시스템과 atomic 디자인을 사용할 수 있습니다."]}/>
             </FlexWrapper>
             <FlexWrapper>
